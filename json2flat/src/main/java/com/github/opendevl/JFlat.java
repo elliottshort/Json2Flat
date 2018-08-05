@@ -448,6 +448,10 @@ public class JFlat {
 		this.write2csv(destination, ',');
 	}
 
+	public String getAsString() {
+		return write2csv(',');
+	}
+
 	/**
 	 * This method writes the 2D representation in csv format with custom
 	 * delimiter set by user.
